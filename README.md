@@ -1,4 +1,4 @@
-#hntop
+# hntop
 
 Displays one of the top 100 stories on HN every 10 seconds, using the HN Firebase API
 This is an experiment to learn Golang and React. It is entirely pointless.
@@ -10,6 +10,7 @@ This is an experiment to learn Golang and React. It is entirely pointless.
 * [Check](http://localhost:3000)
 
 ## Todo
+* Make use of the UserHandler from UI
 * Convert to Go workspace
 * Investigate [Beego](http://beego.me) and [Revel](http://revel.github.io) as alternatives to Gorilla
 * Apply Go error handling
