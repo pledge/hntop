@@ -47,7 +47,7 @@ var Story = React.createClass({
 				<div className="progress progress-striped">
 					<div className="progress-bar progress-bar-warning" style={{width: this.state.ticksProg + "%"}}></div>
 				</div>
-				<div>@{this.state.by} - <a href={this.state.url}>{this.state.title}</a></div>
+				<div>@<a href={"/user/" + this.state.by}>{this.state.by}</a> - <a href={this.state.url}>{this.state.title}</a></div>
 			</div>
 		);
 	}
