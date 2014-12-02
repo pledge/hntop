@@ -1,6 +1,7 @@
 # hntop
 
 Displays one of the top 100 stories on HN every 10 seconds, using the HN Firebase API
+
 This is an experiment to learn Golang and React. It is entirely pointless.
 
 ## Installation
